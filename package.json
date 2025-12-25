@@ -1,0 +1,26 @@
+{
+  "name": "mastering-nodejs-apis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcel1712/mastering-nodejs-apis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcel1712/mastering-nodejs-apis/issues"
+  },
+  "homepage": "https://github.com/marcel1712/mastering-nodejs-apis#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fastify": "^5.6.2"
+  }
+}
