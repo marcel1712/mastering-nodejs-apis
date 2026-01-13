@@ -1,15 +1,9 @@
-import Fastify from 'fastify'
-
-const app = Fastify()
-
-//GET POST PUT PATCH DELETE
-
-app.get('/hello', () => {
-    return 'hello world'
-})
+import { app } from './app'
+import { env } from './env'
 
 app.listen({
-    port: 3333
+    port: env.PORT,
 }).then(() =>{
     console.log('HTTP server Runnig')
-})
+})//return a promise
+
